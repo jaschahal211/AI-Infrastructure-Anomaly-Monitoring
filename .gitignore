@@ -218,3 +218,21 @@ __marimo__/
 .streamlit/secrets.toml
 
 data/
+# Environment and secrets
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.idea/
+
+# Local databases
+*.sqlite3
+
+# Python testing
+.pytest_cache/
